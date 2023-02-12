@@ -28,7 +28,7 @@ namespace Web_App_ASP.NET.Pages.Clients
                                     clientInfo.name = reader.GetString(1);
                                     clientInfo.email = reader.GetString(2);
                                     clientInfo.phone = reader.GetString(3);
-                                    clientInfo.adresss = reader.GetString(4);
+                                    clientInfo.address = reader.GetString(4);
                                     clientInfo.created_at=reader.GetDateTime(5).ToString();
 
                                    listClients.Add(clientInfo);
@@ -51,7 +51,7 @@ namespace Web_App_ASP.NET.Pages.Clients
         public String name;
         public String email;
         public String phone;
-        public String adresss;
+        public String address;
         public String created_at;
 
 
